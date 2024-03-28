@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 10%;
+    gap: 12px;
+    background-color: #fff;
+}
+
+.login-container {
+    width: 347px;
+    padding: 20px 26px;
+    background-color: #fff;
+    border: 1px solid rgba(128, 128, 128, 0.279);
+    border-radius: 10px;
+}
+
+.login-form h2 {
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+form label{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0 0 2px 2px;
+    margin-top: -5px;
+}
+
+form button{
+    background-color: #fdd05e;
+    border: none;
+    height: 29px;
+    width: 297px;
+    border-radius: 6px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: -5px;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #eab42b;
+}
+
+.login-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form input {
+    width: 297px;
+    height: 31px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(255,255,255,.5), 0 1px 0 rgba(0,0,0,.07) inset;
+    outline: 0;
+}
+
+.Text{
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Text p {
+    font-size: 12px;
+    line-height: 1.5;
+    word-spacing: 1px;
+}
+
+.Text p a{
+    font-size: 12px;
+    line-height: 1.5;
+    color: #0066c0;
+}
+
+.Text p a:hover{
+    text-decoration: underline;
+    color: rgb(237, 131, 10);
+}
+
+.Text .Help{
+    font-size: 14px;
+}
+
+.Text .Help:hover{
+    text-decoration: underline;
+    color: rgb(237, 131, 10);
+}
+
+.login-form a {
+    font-size: 12px;
+    color: #0066c0;
+    text-decoration: none;
+}
+
+.additional-options {
+    margin-top: -2px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.additional-options h3{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.additional-options a {
+    color: #0066c0;
+    text-decoration: none;
+    font-size: 13.5px;
+    line-height: 19px;
+}
+
+.additional-options a:hover{
+    text-decoration: underline;
+    color: rgb(237, 131, 10);
+}
+
+hr{
+    height: 0.1px;
+    border: none;
+    outline: none;
+    background-color: rgba(128, 128, 128, 0.235);
+    margin-top: 8px;
+}
+
+.line{
+    position: relative;
+    height: 0.1px;
+    width: 350px;
+    background-color: rgba(128, 128, 128, 0.235);
+    margin: 16px 0;
+}
+
+.line::before{
+    content: "New to Amazon?";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 15px;
+    background: #fff;
+    color: #767676;
+    font-size: 12px;
+}
+
+.AccountBtn{
+    width: 350px;
+    height: 29px;
+    color: #0f1111;
+    font-size: 13px;
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.279);
+    border-radius: 6px;
+    box-shadow: 3px 3px 10px rgba(75, 75, 75, 0.1);
+    margin-top: -10px;
+}
+
+.AccountBtn:hover{
+    background-color: rgba(190, 190, 190, 0.103);
+}
+.foot{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    /* background-color: red; */
+    border-top: 2px solid #76767614;
+    width: 100%;
+    height: 131px;
+    margin-top: -65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footText{
+    display: flex;
+    gap: 22px;
+}
+
+.footText a{
+    text-decoration: none;
+    color: #0066c0;
+    font-size: 11px;
+
+}
+
+.footText a:hover{
+    color: rgb(237, 131, 10);
+    text-decoration: underline;
+}
+
+.copyright p{
+    font-size: 11px;
+}

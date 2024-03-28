@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up</title>
+    <link rel="stylesheet" type="text/css" href="signUp.css">
+</head>
+<body>
+    <a href="../Landing Page/index.html">
+        <img src="../assets/amazon_logo_dark.png" width="103" alt="Amazon">
+    </a>
+    <div class="login-container">
+        <div class="login-form">
+            <h2>Create account</h2>
+            <form action="#" onsubmit="return validatePassword()">
+                <label>Your name</label>
+                <input type="text" placeholder="First and last name" required autofocus>
+
+                <label>Mobile number or email</label>
+                <input type="text" required>
+                <div>
+                    <label>Password</label>
+                    <input type="password" class="password" value="" placeholder="At least 6 characters" required>
+                    <p class="pass-text">Passwords must be at least 6 characters.</p>
+                </div>
+                <label>Re-enter password</label>
+                <input type="password" class="confirm-password" required>
+                <p class="pass-text1"></p>
+
+                <button type="submit">Continue</button>
+            </form>
+            <div class="Text">
+                <p>By creating an account, you agree to Amazon's <a href="#">Conditions of Use</a> and <a href="#">Privacy Notice</a>.</p>
+            </div>
+            
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div class="additional-options">
+            <p>Already have an account? <a href="../Sign In Page/signIn.html">Sign in</a></p>
+            <p>Buying for work? <a href="">Create a free business account</a></p>
+        </div>
+    </div>
+    
+   
+    <footer>
+        <div class="foot">
+            <div class="footText">
+                <a href="#">Conditions of Use</a>
+                <a href="#">Privacy Notice</a>
+                <a href="#">Help</a>
+            </div>
+            <div class="copyright">
+                <p>© 1996-2024, Amazon.com, Inc. or its affiliates</p>
+            </div>
+        </div>
+    </footer>
+    <script src="signUp.js"></script>
+</body>
+</html>
